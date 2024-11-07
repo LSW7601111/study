@@ -145,9 +145,9 @@
 #     exit()
 
 num = int(input("입력하세요 : "))
-if (num%3) == 0:
+if (num%2) == 0:
     print("안녕")
-elif (num%3) == 1:
+elif (num%2) == 1:
     print("하세요")
-elif (num%3) != 0:
+elif (num%2) != 0:
     print("감사합니다.")
