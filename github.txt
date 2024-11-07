@@ -1,0 +1,16 @@
+1. pwd
+2. ls
+3. git init
+4. git config --global user.name (깃허브 아이디)
+5. git config --global user.email (로그인 메일)
+6. git config --global --list
+7. history (내가 명령했던 명령어 보는거) / 컨트롤 L 누르면 화면창 깔끔
+8. git remote -v
+9. git remote add origin (내 저장할 깃허브 주소 폴더 옆코드)
+10. git remote -v
+11. git remote remove origin (저장 주소 지우는 명령어)
+12. git add 저장파일(내 저장주소안에 저장되어있는 파일들) ex) 11.txt
+13. git commit -m 'commit 11(파일앞의 이름)'
+14. git push origin master -->> 파일을 업데이트
+15 git push origin master --force 강제 업데이트
+
